@@ -4,7 +4,7 @@
 #include <vector>
 #include <iostream>
 
-int main(int argc, char* argv[]) {
+int main(int argc, char* []) {
     const std::string filename = argc > 1 ? "input" : "example";
     std::ifstream input(filename);
 
